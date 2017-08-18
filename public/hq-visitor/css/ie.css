@@ -1,0 +1,99 @@
+/* ie 7/8 css */
+@font-face {
+    font-family: 'latolight';
+    src: url('lato-light-webfont.eot');
+    src: url('lato-light-webfont.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+ min-width: 1024px;
+}
+.group {
+	zoom: 1;
+}
+.userWidget{
+	top: 81px;
+	box-shadow: 0 1px 3px #ccc;
+	behavior: url(./css/PIE.htc);
+}
+#navigation{
+	box-shadow: 0 2px 3px #aaa;
+	behavior: url(./css/PIE.htc);
+}
+#hero .trackInfo{
+	box-shadow: 0 1px 1px #888;
+	behavior: url(./css/PIE.htc);
+}
+.ie7 #whatsHappening .slider .bx-pager{
+	padding-left: 100px;
+}
+.onMobi {
+	display: none !important;
+}
+
+#wrapper {
+   overflow-x: hidden;    
+}
+.dataTable .colCh a:hover i{
+    box-shadow: none;
+}
+#mainContent.splitLayout{
+   overflow: hidden; 
+}
+.casePage .caseBriefWrapper .caseBrief .moreBtnWrapper .btn{
+	border-radius: 6px;
+	behavior: url(./css/PIE.htc);
+}
+.searchRelatedBox, .searchStoriesBox {
+	position: relative;	
+	z-index: 1;
+}
+.searchRelatedBox .text, .sideSearchStories .searchStoriesBox .text{
+    border-radius: 4px 0 0 4px;
+	display: block;
+	behavior: url(./css/PIE.htc);
+}
+.sideMostRecentChallenges li .contestName i, .sideMostRecentChallenges li .contestName:hover i {
+	border-radius: 28px;
+	box-shadow: none!important;
+	behavior: url(./css/PIE.htc);
+}
+.sideArchiveStories li .archiveStoriesLink img{
+	background-color: transparent;
+}
+/*Fix Lato font-weight 300*/
+.pageContent,
+.sideFindRelatedContent .relatedContentList li .contentBrief,
+.sideQuote p.quoteTxt,
+.casePage .caseBriefWrapper .caseBrief p,
+.caseDetailsWrapper .caseDetails article p,
+.caseQuote .quoteTxt,
+.caseQuote .quoterTitle,
+.pressArticle,
+.aboutAreaWrapper p,
+.resourceList li .contentBrief,
+.storiesList li.grid-3-1 .publishDate,
+.storiesList li.grid-3-1 .storyQoute,
+.leftArrowLink,
+.storyDetailsWrapper .storyTitle .publishDate,
+.storyDetails article p,
+.sideArchiveStories li .archiveStoriesLink .arcihiveTitle,
+.sideArchiveStories li .archiveStoriesLink .date{
+	font-family: 'latolight', Arial, Helvetica, sans-serif;
+}
+	.pageContent h3,
+	.pageContent strong,
+	.csRealResults .quoterName,
+	.csRealResults .quoteTitle{
+		font-family: lato, Arial, Helvetica, sans-serif;
+		font-weight: normal;
+	}
+	.caseQuote .quoterName,
+	.aboutAreaWrapper p strong{
+		font-family: lato, Arial, Helvetica, sans-serif;
+		font-weight: bold;
+	}
+
+
